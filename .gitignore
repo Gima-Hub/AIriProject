@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.env
+
+# Cache / Logs
+.cache/
+.cache*/
+logs/
+*.log
+03_Cache/
+model_cache/
+ocr_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# AIri Specific Exclusions
+note-factory/AiriJointProject/
+note-factory/health/
+note-factory/ai-history/
+note-factory/outputs/
+note-factory/tasks/active/
+3_CURRENT_STATUS.md
+note-factory/tasks/ai-rules/MEMORY.md
+
+# Data Files
+data/
+import/
+exports/
+outputs/
+*.csv
+*.xlsx
+*.xls
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.mov
+*.pdf
+*.zip
+*.7z
+*.tar.gz
+
+# Recovery / State
+recovery/ACTIVE_TASK.md
+recovery/RUNTIME_STATE_PACKET.md
+runtime_state.json

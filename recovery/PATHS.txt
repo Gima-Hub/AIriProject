@@ -1,0 +1,22 @@
+# AIri Bootstrap Paths (Raw)
+
+PATHS は、継続性の核（Continuity Core）ではなく、選択的な参照マップ（Selective Lookup Map）です。
+継続性に不可欠なファイル（P0）は、最優先の参照ターゲットとして扱われるべきです。
+リポジトリ全体の走査は常にオプションであり、必要に応じてのみ行われます。
+
+- P0: STATUS: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/3_CURRENT_STATUS.md
+- P0: ACTIVE_TASK_POINTER: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/recovery/ACTIVE_TASK.md
+- P1: ROUTING: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/AI_ROUTING.md
+- P1: OPS_GUIDE: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/AIri_OPERATION_GUIDE.md
+- P1: GOV_MATRIX: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/governance/AUTHORITY_MATRIX.md
+- P1: GOV_RULES: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/governance/GOVERNANCE_RULES.md
+- P1: GOV_MUTATION: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/governance/MUTATION_POLICY.md
+- P1: GOV_REPAIR: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/governance/REPAIR_BOUNDARY.md
+- P1: GOV_STATE: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/governance/RUNTIME_STATE_POLICY.md
+- P1: GOV_EVENT: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/governance/EVENT_TRIGGER_POLICY.md
+- P1: GOV_DAEMON: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/governance/DAEMON_RUNTIME_RULES.md
+- P1: GOV_ORCHESTRATION: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/governance/RUNTIME_ORCHESTRATION_POLICY.md
+- P0: RECOVERY_BOOT_PACKET: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/recovery/CORE_BOOT_PACKET.md
+- P0: RECOVERY_STATE_PACKET: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/recovery/RUNTIME_STATE_PACKET.md
+- P1: RECOVERY_TASK_SEMANTICS: https://raw.githubusercontent.com/Gima-Hub/AIriProject/refs/heads/main/recovery/ACTIVE_TASK_SEMANTICS.md
+- P2: (Optional Context lookup targets...)
